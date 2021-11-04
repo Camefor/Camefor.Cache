@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EDF04816-E21F-4704-AC64-2D3FD704B01F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camefor.Cache.Base", "src\Camefor.Cache.Base\Camefor.Cache.Base.csproj", "{964102BF-7E7A-4091-8F7D-F2AAB6B3D249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camefor.Cache.Redis", "src\Camefor.Cache.Redis\Camefor.Cache.Redis.csproj", "{598A0CE3-12F5-40FC-9815-810CCA7E823A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camefor.Cache.Factory", "src\Camefor.Cache.Factory\Camefor.Cache.Factory.csproj", "{75FB7883-964A-448B-A707-6D1A8E6D06C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BBA39CA9-4270-47DF-AC36-F7010FE05B1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camefor.Cache.Tests", "test\Camefor.Cache.Tests\Camefor.Cache.Tests.csproj", "{969E2F88-8354-4372-9610-C2BF4C581217}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{964102BF-7E7A-4091-8F7D-F2AAB6B3D249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{964102BF-7E7A-4091-8F7D-F2AAB6B3D249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{964102BF-7E7A-4091-8F7D-F2AAB6B3D249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{964102BF-7E7A-4091-8F7D-F2AAB6B3D249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598A0CE3-12F5-40FC-9815-810CCA7E823A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598A0CE3-12F5-40FC-9815-810CCA7E823A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598A0CE3-12F5-40FC-9815-810CCA7E823A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598A0CE3-12F5-40FC-9815-810CCA7E823A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75FB7883-964A-448B-A707-6D1A8E6D06C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FB7883-964A-448B-A707-6D1A8E6D06C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FB7883-964A-448B-A707-6D1A8E6D06C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FB7883-964A-448B-A707-6D1A8E6D06C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{969E2F88-8354-4372-9610-C2BF4C581217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969E2F88-8354-4372-9610-C2BF4C581217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969E2F88-8354-4372-9610-C2BF4C581217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969E2F88-8354-4372-9610-C2BF4C581217}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{964102BF-7E7A-4091-8F7D-F2AAB6B3D249} = {EDF04816-E21F-4704-AC64-2D3FD704B01F}
+		{598A0CE3-12F5-40FC-9815-810CCA7E823A} = {EDF04816-E21F-4704-AC64-2D3FD704B01F}
+		{75FB7883-964A-448B-A707-6D1A8E6D06C5} = {EDF04816-E21F-4704-AC64-2D3FD704B01F}
+		{969E2F88-8354-4372-9610-C2BF4C581217} = {BBA39CA9-4270-47DF-AC36-F7010FE05B1D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE5A2F74-D200-4720-9F48-396F2120BF9C}
+	EndGlobalSection
+EndGlobal

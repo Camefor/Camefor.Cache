@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Camefor.Cache.Base\Camefor.Cache.Base.csproj" />
+    <ProjectReference Include="..\Camefor.Cache.Redis\Camefor.Cache.Redis.csproj" />
+  </ItemGroup>
+
+</Project>
