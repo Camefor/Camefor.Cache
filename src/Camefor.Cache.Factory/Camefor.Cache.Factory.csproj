@@ -9,4 +9,12 @@
     <ProjectReference Include="..\Camefor.Cache.Redis\Camefor.Cache.Redis.csproj" />
   </ItemGroup>
 
+
+  <PropertyGroup>
+    <PackageId>Camefor.Cache.Factory</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>rhyswang</Authors>
+    <Company>Camefor</Company>
+  </PropertyGroup>
+
 </Project>

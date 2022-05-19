@@ -23,7 +23,7 @@ namespace Camefor.Cache.Tests
 
             _cache.Write<string>("akey", testData, 1);
             var readResult = _cache.Read<string>("akey", 1);
-            Assert.IsFalse(string.IsNullOrEmpty(readResult), "²»Ó¦¸ÃÎª¿Õ");
+            Assert.IsFalse(string.IsNullOrEmpty(readResult), "ï¿½ï¿½Ó¦ï¿½ï¿½Îªï¿½ï¿½");
             Assert.AreEqual(testData, readResult);
         }
     }
